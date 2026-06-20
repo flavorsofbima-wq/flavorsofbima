@@ -1,0 +1,141 @@
+.footer {
+  background: #040f24;
+  padding: 64px 24px 28px;
+  border-top: 1px solid var(--gbor);
+}
+.inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.3fr;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.mark {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  color: var(--on-gold);
+  background: linear-gradient(135deg, var(--gold), var(--gold2));
+  border: 1.5px solid var(--gold);
+}
+.brandName {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: var(--gold2);
+}
+.brandTag {
+  font-size: 0.56rem;
+  color: var(--td);
+  letter-spacing: 0.05em;
+}
+.about {
+  font-size: 0.87rem;
+  color: var(--ts);
+  line-height: 1.75;
+  margin-bottom: 22px;
+}
+.social {
+  display: flex;
+  gap: 8px;
+}
+.social a {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--gdim);
+  border: 1px solid var(--gbor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  transition: var(--tr);
+}
+.social a:hover {
+  background: var(--gold);
+  transform: translateY(-2px);
+}
+
+.col h4 {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gold2);
+  margin-bottom: 18px;
+  letter-spacing: 0.04em;
+}
+.col a,
+.col p {
+  display: block;
+  font-size: 0.87rem;
+  color: var(--ts);
+  margin-bottom: 10px;
+  transition: color 0.2s;
+  line-height: 1.6;
+}
+.col a:hover {
+  color: var(--gold2);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.78rem;
+  color: var(--td);
+}
+.bottom strong {
+  color: var(--gold2);
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .top {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .top {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* The footer is always dark navy (both themes), so its text must stay
+   light regardless of the selected theme — same approach as the header. */
+.footer .about,
+.footer .col a,
+.footer .col p,
+.footer .brandTag {
+  color: rgba(255, 255, 255, 0.66) !important;
+}
+.footer .col a:hover {
+  color: var(--gold2) !important;
+}
+.footer .bottom {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.footer .bottom strong {
+  color: var(--gold2) !important;
+}
+.footer .brandName,
+.footer .col h4 {
+  color: var(--gold2) !important;
+}

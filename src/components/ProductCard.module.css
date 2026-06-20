@@ -1,0 +1,228 @@
+.card {
+  background: var(--navyc);
+  border: 1px solid var(--gbor);
+  border-radius: var(--r);
+  overflow: hidden;
+  transition: var(--tr);
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--gold);
+  box-shadow: var(--sg);
+}
+
+.imgLink {
+  display: block;
+}
+.img {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+.card:hover .img {
+  transform: scale(1.04);
+}
+.emoji {
+  font-size: 68px;
+}
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--gold);
+  color: var(--on-gold);
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.seasonal {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(7, 26, 61, 0.85);
+  border: 1px solid var(--gbor);
+  color: var(--gold2);
+  font-size: 0.62rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+}
+.variantTag {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(7, 26, 61, 0.9);
+  border: 1px solid var(--gbor);
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.66rem;
+  font-weight: 600;
+  padding: 4px 11px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.cat {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.nameLink {
+  display: block;
+}
+.name {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: var(--tm);
+  margin-bottom: 6px;
+  transition: color 0.2s;
+}
+.nameLink:hover .name {
+  color: var(--gold2);
+}
+.desc {
+  font-size: 0.8rem;
+  color: var(--ts);
+  line-height: 1.6;
+  margin-bottom: 16px;
+  flex: 1;
+}
+.garlicSwitch {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.garlicOpt {
+  flex: 1;
+  background: var(--navy2);
+  border: 1px solid var(--gbor);
+  color: var(--ts);
+  padding: 7px 8px;
+  border-radius: 8px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  transition: var(--tr);
+}
+.garlicOpt:hover {
+  border-color: var(--gold);
+}
+.garlicActive {
+  background: var(--gdim);
+  border-color: var(--gold);
+  color: var(--gold2);
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.price {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gold2);
+}
+.from {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--td);
+}
+.add {
+  background: var(--gdim);
+  border: 1px solid var(--gbor2);
+  color: var(--gold2);
+  padding: 9px 18px;
+  border-radius: 50px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  transition: var(--tr);
+}
+.add:hover {
+  background: var(--gold);
+  color: var(--on-gold);
+}
+.wa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  background: transparent;
+  border: 1px solid rgba(37, 211, 102, 0.4);
+  color: var(--wa);
+  padding: 9px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: var(--tr);
+}
+.wa:hover {
+  background: var(--wa);
+  color: var(--tm);
+}
+
+/* ── Choose Options additions ── */
+.imgLink {
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+.choose {
+  width: 100%;
+  background: linear-gradient(135deg, var(--gold), var(--gold2));
+  color: var(--on-gold);
+  border: none;
+  padding: 11px;
+  border-radius: 50px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  transition: var(--tr);
+  margin-top: 4px;
+}
+.choose:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(212, 175, 55, 0.45);
+}
+.discount {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: #e24b4a;
+  color: var(--tm);
+  font-size: 0.66rem;
+  font-weight: 800;
+  padding: 4px 11px;
+  border-radius: 20px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.strike {
+  font-size: 0.82rem;
+  color: var(--td);
+  text-decoration: line-through;
+  margin-left: 8px;
+  font-weight: 400;
+}

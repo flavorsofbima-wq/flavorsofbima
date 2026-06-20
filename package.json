@@ -1,0 +1,26 @@
+{
+  "name": "flavors-of-bima",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flavors Of BIMA — Premium homemade pickles, podis & spices e-commerce",
+  "scripts": {
+    "catalog": "node scripts/build-catalog.mjs",
+    "predev": "npm run catalog && node scripts/clear-next-cache.mjs",
+    "dev": "next dev",
+    "prebuild": "npm run catalog",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5"
+  }
+}

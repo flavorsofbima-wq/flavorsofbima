@@ -1,0 +1,182 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: calc(var(--header-h) + 40px) 24px 60px;
+  transition: background 0.8s ease;
+}
+.bgImg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(7,26,61,0.72), rgba(7,26,61,0.82));
+  z-index: 1;
+}
+.heroLogo {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 22px;
+  border: 2px solid var(--gold);
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.4);
+}
+
+.ambientL,
+.ambientR {
+  position: absolute;
+  font-size: 30vh;
+  opacity: 0.06;
+  filter: blur(1px);
+  user-select: none;
+  pointer-events: none;
+}
+.ambientL {
+  left: -4vw;
+  bottom: -2vh;
+}
+.ambientR {
+  right: -4vw;
+  top: -2vh;
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  animation: fadeUp 0.8s ease both;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold2);
+  margin-bottom: 22px;
+}
+.eyebrow::before,
+.eyebrow::after {
+  content: "";
+  width: 32px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.mark {
+  display: flex;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  margin: 0 auto 22px;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--on-gold);
+  background: linear-gradient(135deg, var(--gold), var(--gold2));
+  border: 2px solid var(--gold);
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.4), 0 0 80px rgba(212, 175, 55, 0.15);
+}
+
+.title {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(2.8rem, 7vw, 5.2rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 30px rgba(7, 26, 61, 0.8);
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+  color: var(--gold2);
+  font-style: italic;
+  margin-bottom: 14px;
+}
+.text {
+  font-size: clamp(0.85rem, 1.5vw, 1rem);
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 540px;
+  margin: 0 auto 38px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+.btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  transition: var(--tr);
+}
+.dotActive {
+  background: var(--gold);
+  width: 28px;
+  border-radius: 5px;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btns :global(.btn) {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+/* Hero sits on a dark scrim in BOTH themes, so its outline buttons
+   and text must stay light regardless of the selected theme. */
+.hero :global(.btn-outline) {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.hero :global(.btn-outline:hover) {
+  color: var(--gold3);
+  border-color: var(--gold);
+}

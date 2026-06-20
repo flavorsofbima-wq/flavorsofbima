@@ -1,0 +1,101 @@
+.trust {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.trustCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--navyc);
+  border: 1px solid var(--gbor);
+  border-radius: var(--r);
+  padding: 22px 24px;
+  height: 100%;
+}
+.trustIcon {
+  font-size: 34px;
+  flex-shrink: 0;
+}
+.trustTitle {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold2);
+  margin-bottom: 3px;
+}
+.trustDesc {
+  font-size: 0.82rem;
+  color: var(--ts);
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 24px;
+}
+.card {
+  background: var(--navyc);
+  border: 1px solid var(--gbor);
+  border-radius: var(--r);
+  padding: 28px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.stars {
+  color: var(--gold);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+.starDim {
+  color: var(--gbor);
+}
+.quote {
+  font-size: 0.95rem;
+  color: var(--tm);
+  line-height: 1.75;
+  font-style: italic;
+  flex: 1;
+  margin-bottom: 20px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--gold);
+  flex-shrink: 0;
+}
+.avatarText {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold2);
+  text-transform: uppercase;
+}
+.authorName {
+  font-weight: 600;
+  color: var(--tm);
+  font-size: 0.95rem;
+}
+.authorLoc {
+  font-size: 0.78rem;
+  color: var(--gold);
+}
+
+@media (max-width: 768px) {
+  .trust {
+    grid-template-columns: 1fr;
+  }
+}
