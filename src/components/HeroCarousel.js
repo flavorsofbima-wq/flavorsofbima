@@ -13,7 +13,7 @@ const SLIDES = [
     eyebrow: "Premium Homemade Flavors",
     title: "Flavors Of BIMA",
     subtitle: "Authentic Homemade Pickles, Podis & Spices",
-    text: "Crafted in small batches with wood pressed sesame oil, handpicked vegetables and traditional recipes. No preservatives. No artificial colors.",
+    text: "Crafted in small batches with wood pressed oil, handpicked vegetables and traditional recipes. No preservatives. No artificial colors.",
     bg: "radial-gradient(ellipse 60% 80% at 50% 50%, #0c2354 0%, #071a3d 70%)",
   },
   {

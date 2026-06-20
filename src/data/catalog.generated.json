@@ -56,13 +56,13 @@
       "emoji": "🥭",
       "gradient": "linear-gradient(145deg,#1a0804,#5a1808,#9a2c10)",
       "shortDesc": "Classic Andhra raw mango pickle with rich red masala.",
-      "description": "Our signature Avakaya — chunky raw mango pieces, fenugreek, mustard and rich red chilli masala, slow-set in wood pressed sesame oil. Bold, tangy and unmistakably homemade.",
+      "description": "Our signature Avakaya — chunky raw mango pieces, fenugreek, mustard and rich red chilli masala, slow-set in wood pressed oil. Bold, tangy and unmistakably homemade.",
       "ingredients": [
         "Raw mango",
         "Red chilli powder",
         "Mustard",
         "Fenugreek",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt",
         "Garlic (optional)"
       ],
@@ -95,7 +95,7 @@
         "Red chilli powder",
         "Mustard",
         "Tamarind",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt",
         "Garlic (optional)"
       ],
@@ -127,7 +127,7 @@
         "Gongura leaves",
         "Red chilli powder",
         "Mustard",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt",
         "Garlic (optional)"
       ],
@@ -154,12 +154,12 @@
       "emoji": "🌶️",
       "gradient": "linear-gradient(145deg,#2a0808,#7a1010,#aa2020)",
       "shortDesc": "Fiery whole red chilli pickle.",
-      "description": "For those who love the heat — plump red chillies stuffed with a mustard-forward masala and matured in wood pressed sesame oil. Intense, bold and traditional.",
+      "description": "For those who love the heat — plump red chillies stuffed with a mustard-forward masala and matured in wood pressed oil. Intense, bold and traditional.",
       "ingredients": [
         "Red chilli",
         "Mustard",
         "Fenugreek",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": ""
@@ -190,7 +190,7 @@
         "Gongura leaves",
         "Red chilli",
         "Mustard",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt",
         "Garlic (optional)"
       ],
@@ -223,7 +223,7 @@
         "Red chilli powder",
         "Mustard",
         "Fenugreek",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": ""
@@ -280,13 +280,13 @@
       "emoji": "🍗",
       "gradient": "linear-gradient(145deg,#1a0808,#4a1010,#8a1a1a)",
       "shortDesc": "Tender boneless chicken in Andhra spices.",
-      "description": "Small tender boneless chicken pieces cooked in an authentic Andhra spice blend — clearly visible meat, less masala, bold homemade taste. Set in wood pressed sesame oil.",
+      "description": "Small tender boneless chicken pieces cooked in an authentic Andhra spice blend — clearly visible meat, less masala, bold homemade taste. Set in wood pressed oil.",
       "ingredients": [
         "Boneless chicken",
         "Red chilli powder",
         "Ginger-garlic",
         "Andhra spices",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": "🌟 Premium"
@@ -318,7 +318,7 @@
         "Gongura leaves",
         "Red chilli powder",
         "Ginger-garlic",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": "Must Try"
@@ -344,13 +344,13 @@
       "emoji": "🍖",
       "gradient": "linear-gradient(145deg,#1a0606,#4a0e0e,#8a1616)",
       "shortDesc": "Bone-in chicken pickle, rich & traditional.",
-      "description": "Traditional country-style chicken pickle with bone-in cuts for deeper flavour, slow-cooked in an authentic Andhra spice blend and wood pressed sesame oil.",
+      "description": "Traditional country-style chicken pickle with bone-in cuts for deeper flavour, slow-cooked in an authentic Andhra spice blend and wood pressed oil.",
       "ingredients": [
         "Chicken (with bone)",
         "Red chilli powder",
         "Ginger-garlic",
         "Andhra spices",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": "🍖 Traditional"
@@ -382,7 +382,7 @@
         "Gongura leaves",
         "Red chilli powder",
         "Ginger-garlic",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": "Must Try"
@@ -627,7 +627,7 @@
         "Urad dal",
         "Chana dal",
         "Red chilli",
-        "Sesame",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": "💚 Premium"
@@ -658,7 +658,7 @@
         "Urad dal",
         "Chana dal",
         "Red chilli",
-        "Sesame",
+        "Wood pressed oil",
         "Garlic",
         "Salt"
       ],
@@ -721,7 +721,7 @@
         "Garlic",
         "Red chilli",
         "Urad dal",
-        "Sesame",
+        "Wood pressed oil",
         "Salt"
       ],
       "badge": ""
@@ -792,8 +792,8 @@
     },
     {
       "order": 3.0,
-      "title": "Wood Pressed Sesame Oil",
-      "desc": "We use only pure wood pressed (cold-pressed) sesame oil.",
+      "title": "Wood Pressed Oil",
+      "desc": "We use only pure wood pressed (cold-pressed) oil.",
       "image": "wood-pressed-oil.jpg"
     },
     {
@@ -856,7 +856,7 @@
   "trustbar": [
     {
       "order": 1.0,
-      "label": "Wood Pressed Sesame Oil",
+      "label": "Wood Pressed Oil",
       "emoji": "💧",
       "image": "wood-pressed-oil.png"
     },
@@ -900,7 +900,7 @@
     {
       "order": 2.0,
       "q": "Do you use any preservatives or colors?",
-      "a": "Never. We preserve naturally with salt, wood pressed sesame oil and spices. All colour comes from natural ingredients like turmeric and red chilli."
+      "a": "Never. We preserve naturally with salt, wood pressed oil and spices. All colour comes from natural ingredients like turmeric and red chilli."
     },
     {
       "order": 3.0,

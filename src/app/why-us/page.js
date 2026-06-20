@@ -4,7 +4,7 @@ import { WHYUS, TESTIMONIALS } from "@/lib/catalog";
 
 export const metadata = {
   title: "Why Us",
-  description: "No preservatives, no added colors, wood pressed sesame oil, premium ingredients — why our food is different.",
+  description: "No preservatives, no added colors, wood pressed oil, premium ingredients — why our food is different.",
 };
 
 export default function WhyUsPage() {

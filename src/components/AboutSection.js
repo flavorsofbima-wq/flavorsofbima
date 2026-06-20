@@ -31,10 +31,10 @@ export default function AboutSection({ alt = true }) {
             </blockquote>
             <p className={styles.aboutP}>
               No factories. No shortcuts. No artificial preservatives. Just real homemade food, made the right
-              way — with wood pressed sesame oil, handpicked vegetables and homemade spices.
+              way — with wood pressed oil, handpicked vegetables and homemade spices.
             </p>
             <div className={styles.aboutTags}>
-              {["🫙 Wood Pressed Sesame Oil", "🥬 Handpicked Vegetables", "📜 Traditional Recipes", "🚫 No Preservatives"].map((t) => (
+              {["🫙 Wood Pressed Oil", "🥬 Handpicked Vegetables", "📜 Traditional Recipes", "🚫 No Preservatives"].map((t) => (
                 <span key={t} className={styles.aboutTag}>{t}</span>
               ))}
             </div>

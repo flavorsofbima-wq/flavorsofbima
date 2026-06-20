@@ -15,7 +15,7 @@ export const BRAND = {
   name: "Flavors Of BIMA",
   tagline: "Authentic homemade taste, made with love",
   description:
-    "Handcrafted pickles, podis, and spices prepared in small batches using wood pressed sesame oil, handpicked vegetables, homemade spices, and traditional recipes. No preservatives. No artificial colors.",
+    "Handcrafted pickles, podis, and spices prepared in small batches using wood pressed oil, handpicked vegetables, homemade spices, and traditional recipes. No preservatives. No artificial colors.",
   phone: s("phone", "9550073264"),
   phoneDisplay: "+91 " + s("phone", "9550073264").replace(/(\d{5})(\d{5})/, "$1 $2"),
   whatsapp: s("whatsapp", "919550073264"),
