@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T08:05:20.005727",
+  "generatedAt": "2026-07-14T09:26:53.570Z",
   "categories": [
     {
       "id": "veg-pickles",
@@ -32,6 +32,14 @@
       "type": "veg",
       "base": "100g",
       "image": "podis.jpg"
+    },
+    {
+      "id": "snacks",
+      "name": "Sweets & Snacks",
+      "icon": "🍪",
+      "type": "veg",
+      "base": "250g",
+      "image": "snacks.jpg"
     }
   ],
   "products": [
@@ -48,14 +56,14 @@
       "garlicSurcharge": 20,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": true,
       "emoji": "🥭",
       "gradient": "linear-gradient(145deg,#1a0804,#5a1808,#9a2c10)",
-      "shortDesc": "Classic Andhra raw mango pickle with rich red masala.",
+      "shortDesc": "Our signature Avakaya — chunky raw mango pieces, fenugreek, mustard and rich red chilli masala, slow-set in wood pressed oil.",
       "description": "Our signature Avakaya — chunky raw mango pieces, fenugreek, mustard and rich red chilli masala, slow-set in wood pressed oil. Bold, tangy and unmistakably homemade.",
       "ingredients": [
         "Raw mango",
@@ -66,7 +74,9 @@
         "Salt",
         "Garlic (optional)"
       ],
-      "badge": "🔥 #1 Seller"
+      "badge": "🔥 #1 Seller",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "tomato",
@@ -81,14 +91,14 @@
       "garlicSurcharge": 20,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🍅",
       "gradient": "linear-gradient(145deg,#1a0808,#5a1818,#9a2828)",
-      "shortDesc": "Tangy-spicy homemade tomato pickle.",
+      "shortDesc": "Sun-ripened tomatoes cooked down with mustard, red chilli and Andhra spices into a thick, tangy pickle that pairs perfectly with rice, idly and dosa.",
       "description": "Sun-ripened tomatoes cooked down with mustard, red chilli and Andhra spices into a thick, tangy pickle that pairs perfectly with rice, idly and dosa.",
       "ingredients": [
         "Tomato",
@@ -99,7 +109,9 @@
         "Salt",
         "Garlic (optional)"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "gongura",
@@ -114,14 +126,14 @@
       "garlicSurcharge": 20,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🌿",
       "gradient": "linear-gradient(145deg,#0a1a0a,#1a5a1a,#2a8a2a)",
-      "shortDesc": "Quintessential Andhra sorrel leaf pickle.",
+      "shortDesc": "Tender gongura (sorrel) leaves slow-cooked with red chilli and spices into the tangy, bold pickle Andhra is famous for.",
       "description": "Tender gongura (sorrel) leaves slow-cooked with red chilli and spices into the tangy, bold pickle Andhra is famous for. A must with hot rice and ghee.",
       "ingredients": [
         "Gongura leaves",
@@ -131,7 +143,9 @@
         "Salt",
         "Garlic (optional)"
       ],
-      "badge": "⭐ Most Ordered"
+      "badge": "⭐ Most Ordered",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "red-chilli",
@@ -146,14 +160,14 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": false,
       "seasonal": true,
       "emoji": "🌶️",
       "gradient": "linear-gradient(145deg,#2a0808,#7a1010,#aa2020)",
-      "shortDesc": "Fiery whole red chilli pickle.",
+      "shortDesc": "For those who love the heat — plump red chillies stuffed with a mustard-forward masala and matured in wood pressed oil.",
       "description": "For those who love the heat — plump red chillies stuffed with a mustard-forward masala and matured in wood pressed oil. Intense, bold and traditional.",
       "ingredients": [
         "Red chilli",
@@ -162,7 +176,9 @@
         "Wood pressed oil",
         "Salt"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "gongura-red-chilli",
@@ -177,14 +193,14 @@
       "garlicSurcharge": 20,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": true,
       "emoji": "🌿🌶️",
       "gradient": "linear-gradient(145deg,#0d1a0d,#2a5a2a,#4a8a4a)",
-      "shortDesc": "Tangy gongura meets fiery red chilli.",
+      "shortDesc": "Best of both worlds — the tang of gongura blended with the heat of red chilli in one perfectly balanced, bold jar.",
       "description": "Best of both worlds — the tang of gongura blended with the heat of red chilli in one perfectly balanced, bold jar.",
       "ingredients": [
         "Gongura leaves",
@@ -194,7 +210,9 @@
         "Salt",
         "Garlic (optional)"
       ],
-      "badge": "🌟 Mix"
+      "badge": "🌟 Mix",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "lemon",
@@ -209,14 +227,14 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -20,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🍋",
       "gradient": "linear-gradient(145deg,#1a1a08,#585810,#8a8820)",
-      "shortDesc": "Bright, zesty lemon pickle.",
+      "shortDesc": "Whole lemon pieces matured with warming spices into a bright, tangy, slightly sweet-sour pickle that cuts through any rich meal.",
       "description": "Whole lemon pieces matured with warming spices into a bright, tangy, slightly sweet-sour pickle that cuts through any rich meal.",
       "ingredients": [
         "Lemon",
@@ -226,7 +244,9 @@
         "Wood pressed oil",
         "Salt"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "gooseberry",
@@ -241,23 +261,25 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -20,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": false,
       "seasonal": true,
       "emoji": "🫐",
       "gradient": "linear-gradient(145deg,#0a1a08,#285818,#408830)",
-      "shortDesc": "Healthy, tangy amla pickle.",
+      "shortDesc": "Nutrient-rich gooseberry (amla) pieces in a traditional Andhra spice blend — tangy, wholesome and full of goodness.",
       "description": "Nutrient-rich gooseberry (amla) pieces in a traditional Andhra spice blend — tangy, wholesome and full of goodness.",
       "ingredients": [
         "Gooseberry (amla)",
         "Red chilli powder",
         "Mustard",
-        "Wood pressed sesame oil",
+        "Wood pressed oil",
         "Salt"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months from date of packing",
+      "availabilityNote": "Seasonal pickle — subject to availability"
     },
     {
       "slug": "chicken-boneless",
@@ -272,14 +294,14 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🍗",
       "gradient": "linear-gradient(145deg,#1a0808,#4a1010,#8a1a1a)",
-      "shortDesc": "Tender boneless chicken in Andhra spices.",
+      "shortDesc": "Small tender boneless chicken pieces cooked in an authentic Andhra spice blend — clearly visible meat, less masala, bold homemade taste.",
       "description": "Small tender boneless chicken pieces cooked in an authentic Andhra spice blend — clearly visible meat, less masala, bold homemade taste. Set in wood pressed oil.",
       "ingredients": [
         "Boneless chicken",
@@ -289,7 +311,9 @@
         "Wood pressed oil",
         "Salt"
       ],
-      "badge": "🌟 Premium"
+      "badge": "🌟 Premium",
+      "shelfLife": "Best consumed within 2 months. Refrigerate after opening",
+      "availabilityNote": "Made to order — subject to availability"
     },
     {
       "slug": "gongura-chicken-boneless",
@@ -304,14 +328,14 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🍗🌿",
       "gradient": "linear-gradient(145deg,#0d1a0d,#3a4a10,#6a7a1a)",
-      "shortDesc": "Boneless chicken in tangy gongura.",
+      "shortDesc": "Tender boneless chicken marinated with tangy gongura (sorrel) and Andhra spices — the ultimate non-veg pickle combination.",
       "description": "Tender boneless chicken marinated with tangy gongura (sorrel) and Andhra spices — the ultimate non-veg pickle combination.",
       "ingredients": [
         "Boneless chicken",
@@ -321,7 +345,9 @@
         "Wood pressed oil",
         "Salt"
       ],
-      "badge": "Must Try"
+      "badge": "Must Try",
+      "shelfLife": "Best consumed within 2 months. Refrigerate after opening",
+      "availabilityNote": "Made to order — subject to availability"
     },
     {
       "slug": "chicken-bone",
@@ -336,14 +362,14 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🍖",
       "gradient": "linear-gradient(145deg,#1a0606,#4a0e0e,#8a1616)",
-      "shortDesc": "Bone-in chicken pickle, rich & traditional.",
+      "shortDesc": "Traditional country-style chicken pickle with bone-in cuts for deeper flavour, slow-cooked in an authentic Andhra spice blend and wood pressed oil.",
       "description": "Traditional country-style chicken pickle with bone-in cuts for deeper flavour, slow-cooked in an authentic Andhra spice blend and wood pressed oil.",
       "ingredients": [
         "Chicken (with bone)",
@@ -353,7 +379,9 @@
         "Wood pressed oil",
         "Salt"
       ],
-      "badge": "🍖 Traditional"
+      "badge": "🍖 Traditional",
+      "shelfLife": "Best consumed within 2 months. Refrigerate after opening",
+      "availabilityNote": "Made to order — subject to availability"
     },
     {
       "slug": "gongura-chicken-bone",
@@ -368,14 +396,14 @@
       "garlicSurcharge": 0,
       "hasOptions": true,
       "refinedOilDiff": -70,
-      "glassBottleDiff": 20,
+      "glassBottleDiff": 30,
       "discountType": "",
       "discountValue": 0,
       "bestseller": true,
       "seasonal": false,
       "emoji": "🍖🌿",
       "gradient": "linear-gradient(145deg,#0d1a0a,#3a4a0e,#6a7a16)",
-      "shortDesc": "Bone-in chicken in tangy gongura.",
+      "shortDesc": "Country-style bone-in chicken pickle blended with tangy gongura (sorrel) and Andhra spices — bold, rustic and full of flavour.",
       "description": "Country-style bone-in chicken pickle blended with tangy gongura (sorrel) and Andhra spices — bold, rustic and full of flavour.",
       "ingredients": [
         "Chicken (with bone)",
@@ -385,7 +413,44 @@
         "Wood pressed oil",
         "Salt"
       ],
-      "badge": "Must Try"
+      "badge": "Must Try",
+      "shelfLife": "Best consumed within 2 months. Refrigerate after opening",
+      "availabilityNote": "Made to order — subject to availability"
+    },
+    {
+      "slug": "prawns-pickle",
+      "name": "Prawns Pickle",
+      "category": "non-veg-pickles",
+      "prices": {
+        "250g": 499,
+        "500g": 999,
+        "1kg": 1999
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": true,
+      "refinedOilDiff": -70,
+      "glassBottleDiff": 30,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🫙",
+      "gradient": "linear-gradient(145deg,#0c2354,#071a3d)",
+      "shortDesc": "Collected fresh prawns from river.",
+      "description": "Collected fresh prawns from river. Cleaned it properly and added masalas and Andhra spices",
+      "ingredients": [
+        "Prawns",
+        "Red chilli powder",
+        "Ginger-garlic",
+        "Wood pressed",
+        "oil",
+        "Salt",
+        "Masalas"
+      ],
+      "badge": "",
+      "shelfLife": "Best consumed within 2 months. Refrigerate after opening",
+      "availabilityNote": "Made to order — subject to availability"
     },
     {
       "slug": "garam-masala",
@@ -407,7 +472,7 @@
       "seasonal": false,
       "emoji": "🌶️",
       "gradient": "linear-gradient(145deg,#1a0a04,#5a2a0a,#9a4810)",
-      "shortDesc": "Freshly ground whole spice blend.",
+      "shortDesc": "A warming, aromatic blend of whole spices roasted and ground fresh — the soul of Indian cooking.",
       "description": "A warming, aromatic blend of whole spices roasted and ground fresh — the soul of Indian cooking.",
       "ingredients": [
         "Cardamom",
@@ -417,7 +482,9 @@
         "Coriander",
         "Black pepper"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "dhaniya-powder",
@@ -439,12 +506,14 @@
       "seasonal": false,
       "emoji": "🌿",
       "gradient": "linear-gradient(145deg,#1a1208,#5a4210,#9a7020)",
-      "shortDesc": "Roasted & ground coriander powder.",
+      "shortDesc": "Freshly roasted coriander seeds ground to a warm, citrusy powder that forms the base of countless curries.",
       "description": "Freshly roasted coriander seeds ground to a warm, citrusy powder that forms the base of countless curries.",
       "ingredients": [
         "Coriander seeds"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "jeera-powder",
@@ -466,12 +535,14 @@
       "seasonal": false,
       "emoji": "🫘",
       "gradient": "linear-gradient(145deg,#18140a,#504018,#887828)",
-      "shortDesc": "Hand-roasted cumin powder.",
+      "shortDesc": "Nutty, earthy hand-roasted cumin ground fresh — essential for tempering, raita and spice blends.",
       "description": "Nutty, earthy hand-roasted cumin ground fresh — essential for tempering, raita and spice blends.",
       "ingredients": [
         "Cumin seeds"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "bisibele-bath-powder",
@@ -493,7 +564,7 @@
       "seasonal": false,
       "emoji": "🍛",
       "gradient": "linear-gradient(145deg,#1a0e08,#5a3210,#9a5820)",
-      "shortDesc": "Signature blend for bisibelebath.",
+      "shortDesc": "The complex, rich spice blend that gives Karnataka's famous bisibelebath its unmistakable flavour.",
       "description": "The complex, rich spice blend that gives Karnataka's famous bisibelebath its unmistakable flavour.",
       "ingredients": [
         "Chana dal",
@@ -503,7 +574,9 @@
         "Clove",
         "Dry coconut"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "vangi-bath-powder",
@@ -525,7 +598,7 @@
       "seasonal": false,
       "emoji": "🍆",
       "gradient": "linear-gradient(145deg,#0a1408,#2a4418,#4a7428)",
-      "shortDesc": "Aromatic blend for brinjal rice.",
+      "shortDesc": "A bold, nutty spice blend crafted for vangi bath (brinjal rice) — equally delicious with any vegetable rice.",
       "description": "A bold, nutty spice blend crafted for vangi bath (brinjal rice) — equally delicious with any vegetable rice.",
       "ingredients": [
         "Coriander",
@@ -535,7 +608,9 @@
         "Dry coconut",
         "Cinnamon"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "sambar-powder",
@@ -557,7 +632,7 @@
       "seasonal": false,
       "emoji": "🥣",
       "gradient": "linear-gradient(145deg,#1a0e06,#5a3410,#9a6020)",
-      "shortDesc": "Homemade sambar masala.",
+      "shortDesc": "A balanced, fragrant homemade sambar powder with the perfect depth for everyday sambar and stews.",
       "description": "A balanced, fragrant homemade sambar powder with the perfect depth for everyday sambar and stews.",
       "ingredients": [
         "Coriander",
@@ -567,7 +642,9 @@
         "Fenugreek",
         "Curry leaves"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "rasam-powder",
@@ -589,7 +666,7 @@
       "seasonal": false,
       "emoji": "🍵",
       "gradient": "linear-gradient(145deg,#16100a,#4a3410,#7a5a20)",
-      "shortDesc": "Light & aromatic rasam blend.",
+      "shortDesc": "A comforting, aromatic rasam powder that turns simple tamarind broth into soul-warming rasam.",
       "description": "A comforting, aromatic rasam powder that turns simple tamarind broth into soul-warming rasam.",
       "ingredients": [
         "Coriander",
@@ -598,7 +675,9 @@
         "Red chilli",
         "Toor dal"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 6 months. Store in an airtight container",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "curry-leaf-powder",
@@ -620,17 +699,18 @@
       "seasonal": false,
       "emoji": "🌿",
       "gradient": "linear-gradient(145deg,#0a1a0a,#1a4a1a,#2a7a2a)",
-      "shortDesc": "Fresh, greenish, aromatic podi.",
+      "shortDesc": "Fresh curry leaves roasted and ground with lentils and spices into a nutritious, fragrant podi.",
       "description": "Fresh curry leaves roasted and ground with lentils and spices into a nutritious, fragrant podi. Greenish, premium and packed with flavour.",
       "ingredients": [
         "Curry leaves",
         "Urad dal",
         "Chana dal",
         "Red chilli",
-        "Wood pressed oil",
         "Salt"
       ],
-      "badge": "💚 Premium"
+      "badge": "💚 Premium",
+      "shelfLife": "Best taste within 3 months. Use a clean, dry spoon",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "gun-powder",
@@ -652,17 +732,18 @@
       "seasonal": false,
       "emoji": "🌶️",
       "gradient": "linear-gradient(145deg,#1a1008,#5a3010,#9a5020)",
-      "shortDesc": "Fiery, punchy idly-dosa podi.",
+      "shortDesc": "The classic fiery lentil podi — mix with ghee or oil and it transforms idly, dosa and plain rice into something unforgettable.",
       "description": "The classic fiery lentil podi — mix with ghee or oil and it transforms idly, dosa and plain rice into something unforgettable.",
       "ingredients": [
         "Urad dal",
         "Chana dal",
         "Red chilli",
-        "Wood pressed oil",
         "Garlic",
         "Salt"
       ],
-      "badge": "🔥 Spicy Hit"
+      "badge": "🔥 Spicy Hit",
+      "shelfLife": "Best taste within 3 months. Use a clean, dry spoon",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "palli-karam-podi",
@@ -684,7 +765,7 @@
       "seasonal": false,
       "emoji": "🥜",
       "gradient": "linear-gradient(145deg,#1a0e08,#4a2a10,#8a4820)",
-      "shortDesc": "Roasted peanut karam podi.",
+      "shortDesc": "Roasted peanuts ground with red chilli and garlic into a fiery, nutty podi — a Telugu kitchen staple loved with rice and ghee.",
       "description": "Roasted peanuts ground with red chilli and garlic into a fiery, nutty podi — a Telugu kitchen staple loved with rice and ghee.",
       "ingredients": [
         "Peanuts",
@@ -693,7 +774,9 @@
         "Cumin",
         "Salt"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months. Use a clean, dry spoon",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "vellulli-karam-podi",
@@ -715,16 +798,17 @@
       "seasonal": false,
       "emoji": "🧄",
       "gradient": "linear-gradient(145deg,#14100a,#3a3010,#6a5820)",
-      "shortDesc": "Bold garlic karam podi.",
+      "shortDesc": "An intensely flavoured garlic podi — pungent, rich and bold.",
       "description": "An intensely flavoured garlic podi — pungent, rich and bold. A little goes a long way over rice, idly or dosa.",
       "ingredients": [
         "Garlic",
         "Red chilli",
         "Urad dal",
-        "Wood pressed oil",
         "Salt"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months. Use a clean, dry spoon",
+      "availabilityNote": "Subject to availability"
     },
     {
       "slug": "flax-seeds-podi",
@@ -746,7 +830,7 @@
       "seasonal": false,
       "emoji": "🌾",
       "gradient": "linear-gradient(145deg,#100e0a,#302e18,#5a5828)",
-      "shortDesc": "Nutritious roasted flax podi.",
+      "shortDesc": "Roasted flax seeds ground with mild spices into an omega-rich, healthy podi with a subtle nutty warmth.",
       "description": "Roasted flax seeds ground with mild spices into an omega-rich, healthy podi with a subtle nutty warmth.",
       "ingredients": [
         "Flax seeds",
@@ -755,16 +839,467 @@
         "Cumin",
         "Salt"
       ],
-      "badge": ""
+      "badge": "",
+      "shelfLife": "Best taste within 3 months. Use a clean, dry spoon",
+      "availabilityNote": "Subject to availability"
+    },
+    {
+      "slug": "poha-mixture",
+      "name": "Poha (Atukulu) Mixture",
+      "category": "snacks",
+      "prices": {
+        "500g": 290,
+        "1kg": 580
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": false,
+      "seasonal": false,
+      "emoji": "🍚",
+      "gradient": "linear-gradient(145deg,#1a1408,#4a3c14,#8a7024)",
+      "shortDesc": "Light, crispy flattened rice (atukulu) mixture tossed with peanuts, curry leaves and mild spices — the perfect tea-time crunch.",
+      "description": "Light, crispy flattened rice (atukulu) mixture tossed with peanuts, curry leaves and mild spices — the perfect tea-time crunch.",
+      "ingredients": [
+        "Flattened rice (poha)",
+        "Peanuts",
+        "Curry leaves",
+        "Green chilli",
+        "Turmeric",
+        "Wood pressed oil",
+        "Salt"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "murukulu",
+      "name": "Murukulu",
+      "category": "snacks",
+      "prices": {
+        "500g": 295,
+        "1kg": 590
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🥨",
+      "gradient": "linear-gradient(145deg,#1a1208,#5a3c14,#9a6a24)",
+      "shortDesc": "Traditional hand-twisted rice-flour murukulu, crisp on the outside and delicately spiced — a festive favourite made in small batches.",
+      "description": "Traditional hand-twisted rice-flour murukulu, crisp on the outside and delicately spiced — a festive favourite made in small batches.",
+      "ingredients": [
+        "Rice flour",
+        "Urad dal flour",
+        "Ajwain",
+        "Cumin",
+        "Wood pressed oil",
+        "Salt"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "pappu-chekkalu",
+      "name": "Pappu Chekkalu",
+      "category": "snacks",
+      "prices": {
+        "500g": 305,
+        "1kg": 610
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🍘",
+      "gradient": "linear-gradient(145deg,#181206,#4a3410,#8a6020)",
+      "shortDesc": "Crunchy rice crackers studded with chana dal and mild spice — thin, crisp and dangerously moreish.",
+      "description": "Crunchy rice crackers studded with chana dal and mild spice — thin, crisp and dangerously moreish.",
+      "ingredients": [
+        "Rice flour",
+        "Chana dal",
+        "Red chilli",
+        "Curry leaves",
+        "Wood pressed oil",
+        "Salt"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "ribbon-pakoda",
+      "name": "Ribbon Pakoda",
+      "category": "snacks",
+      "prices": {
+        "500g": 295,
+        "1kg": 590
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": false,
+      "seasonal": false,
+      "emoji": "🎀",
+      "gradient": "linear-gradient(145deg,#1a1006,#5a3410,#9a5e1c)",
+      "shortDesc": "Crisp ribbon-shaped savoury snack made from rice and gram flour with a gentle chilli kick.",
+      "description": "Crisp ribbon-shaped savoury snack made from rice and gram flour with a gentle chilli kick. Perfect with a cup of chai.",
+      "ingredients": [
+        "Rice flour",
+        "Gram flour",
+        "Red chilli powder",
+        "Ajwain",
+        "Wood pressed oil",
+        "Salt"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "palli-chikki",
+      "name": "Palli Chikki",
+      "category": "snacks",
+      "prices": {
+        "500g": 300,
+        "1kg": 600
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🥜",
+      "gradient": "linear-gradient(145deg,#1a0e06,#4a2a0e,#8a4e1a)",
+      "shortDesc": "Classic peanut brittle — roasted peanuts set in golden jaggery.",
+      "description": "Classic peanut brittle — roasted peanuts set in golden jaggery. Naturally sweet, crunchy and wholesome.",
+      "ingredients": [
+        "Peanuts",
+        "Jaggery",
+        "Ghee"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 30 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "wheat-biscuits",
+      "name": "Wheat Biscuits",
+      "category": "snacks",
+      "prices": {
+        "500g": 295,
+        "1kg": 590
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🍪",
+      "gradient": "linear-gradient(145deg,#181008,#4a3014,#8a5c28)",
+      "shortDesc": "Wholesome home-baked wheat biscuits — lightly sweet, crumbly and made without maida or preservatives.",
+      "description": "Wholesome home-baked wheat biscuits — lightly sweet, crumbly and made without maida or preservatives.",
+      "ingredients": [
+        "Whole wheat flour",
+        "Jaggery/Sugar",
+        "Ghee",
+        "Cardamom"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly baked — best consumed within 20 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "kaju-pakodi",
+      "name": "Kaju Pakodi",
+      "category": "snacks",
+      "prices": {
+        "500g": 450,
+        "1kg": 900
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🥮",
+      "gradient": "linear-gradient(145deg,#1a1408,#503c14,#907028)",
+      "shortDesc": "Crisp golden pakodi with generous cashew pieces — a rich, crunchy savoury treat for special occasions.",
+      "description": "Crisp golden pakodi with generous cashew pieces — a rich, crunchy savoury treat for special occasions.",
+      "ingredients": [
+        "Gram flour",
+        "Cashew nuts",
+        "Red chilli powder",
+        "Curry leaves",
+        "Wood pressed oil",
+        "Salt"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "dry-fruit-laddu",
+      "name": "Dry Fruit Laddu",
+      "category": "snacks",
+      "prices": {
+        "500g": 799,
+        "1kg": 1599
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🍡",
+      "gradient": "linear-gradient(145deg,#160e08,#442814,#7a4c24)",
+      "shortDesc": "Naturally sweet laddus made purely from dates and assorted dry fruits — no added sugar, just wholesome energy.",
+      "description": "Naturally sweet laddus made purely from dates and assorted dry fruits — no added sugar, just wholesome energy.",
+      "ingredients": [
+        "Dates",
+        "Almonds",
+        "Cashew nuts",
+        "Raisins",
+        "Ghee"
+      ],
+      "badge": "💚 No Sugar",
+      "shelfLife": "Freshly made — best consumed within 20 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "sunnundalu-bellam",
+      "name": "Bellam Sunnundalu",
+      "category": "snacks",
+      "prices": {
+        "500g": 350,
+        "1kg": 700
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🟤",
+      "gradient": "linear-gradient(145deg,#140c06,#402410,#74461c)",
+      "shortDesc": "Traditional urad dal laddus sweetened with jaggery — nutty, rich and deeply nourishing.",
+      "description": "Traditional urad dal laddus sweetened with jaggery — nutty, rich and deeply nourishing. A Telugu classic.",
+      "ingredients": [
+        "Urad dal",
+        "Jaggery",
+        "Ghee",
+        "Cardamom"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 20 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "sunnundalu-sugar",
+      "name": "Sugar Sunnundalu",
+      "category": "snacks",
+      "prices": {
+        "500g": 350,
+        "1kg": 700
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": false,
+      "seasonal": false,
+      "emoji": "⚪",
+      "gradient": "linear-gradient(145deg,#181410,#48402c,#847a5c)",
+      "shortDesc": "Traditional urad dal laddus sweetened with sugar — melt-in-the-mouth, rich and comforting.",
+      "description": "Traditional urad dal laddus sweetened with sugar — melt-in-the-mouth, rich and comforting.",
+      "ingredients": [
+        "Urad dal",
+        "Sugar",
+        "Ghee",
+        "Cardamom"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 20 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "boondi-mixture",
+      "name": "Boondi Mixtuer",
+      "category": "snacks",
+      "prices": {
+        "500g": 290,
+        "1kg": 580
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": false,
+      "seasonal": false,
+      "emoji": "🥣",
+      "gradient": "linear-gradient(145deg,#1a1206,#5a3810,#9a641c)",
+      "shortDesc": "A savoury mixture of crisp boondi, peanuts and curry leaves with a balanced spice blend — the ultimate anytime snack.",
+      "description": "A savoury mixture of crisp boondi, peanuts and curry leaves with a balanced spice blend — the ultimate anytime snack.",
+      "ingredients": [
+        "Gram flour",
+        "Peanuts",
+        "Curry leaves",
+        "Red chilli powder",
+        "Wood pressed oil",
+        "Salt"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "boondi-laddu-sugar",
+      "name": "Sugar Boondi Laddu",
+      "category": "snacks",
+      "prices": {
+        "500g": 325,
+        "1kg": 650
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🟡",
+      "gradient": "linear-gradient(145deg,#1a1606,#5a4810,#9a7e1c)",
+      "shortDesc": "Soft, fragrant boondi laddus bound with sugar syrup and ghee — a festive sweet made the traditional way.",
+      "description": "Soft, fragrant boondi laddus bound with sugar syrup and ghee — a festive sweet made the traditional way.",
+      "ingredients": [
+        "Gram flour",
+        "Sugar",
+        "Ghee",
+        "Cardamom",
+        "Cashew nuts",
+        "Raisins"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 10 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "boondi-laddu-bellam",
+      "name": "Bellam Boondi Laddu",
+      "category": "snacks",
+      "prices": {
+        "500g": 325,
+        "1kg": 650
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": false,
+      "seasonal": false,
+      "emoji": "🟠",
+      "gradient": "linear-gradient(145deg,#1a1006,#563210,#96581c)",
+      "shortDesc": "Boondi laddus sweetened with wholesome jaggery — earthy, rich and less sweet than the sugar version.",
+      "description": "Boondi laddus sweetened with wholesome jaggery — earthy, rich and less sweet than the sugar version.",
+      "ingredients": [
+        "Gram flour",
+        "Jaggery",
+        "Ghee",
+        "Cardamom",
+        "Cashew nuts"
+      ],
+      "badge": "",
+      "shelfLife": "Freshly made — best consumed within 10 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
+    },
+    {
+      "slug": "ariselu-bellam",
+      "name": "Bellam Ariselu",
+      "category": "snacks",
+      "prices": {
+        "500g": 350,
+        "1kg": 700
+      },
+      "hasGarlic": false,
+      "garlicSurcharge": 0,
+      "hasOptions": false,
+      "refinedOilDiff": 0,
+      "glassBottleDiff": 0,
+      "discountType": "",
+      "discountValue": 0,
+      "bestseller": true,
+      "seasonal": false,
+      "emoji": "🍮",
+      "gradient": "linear-gradient(145deg,#160e06,#462810,#82501c)",
+      "shortDesc": "Time-honoured ariselu — rice flour and jaggery discs, gently fried to a soft, chewy sweetness.",
+      "description": "Time-honoured ariselu — rice flour and jaggery discs, gently fried to a soft, chewy sweetness. A true festive delicacy.",
+      "ingredients": [
+        "Rice flour",
+        "Jaggery",
+        "Ghee"
+      ],
+      "badge": "Festive",
+      "shelfLife": "Freshly made — best consumed within 15 days",
+      "availabilityNote": "Made fresh to order — subject to availability"
     }
   ],
   "settings": {
     "theme": "navy-gold",
     "theme_options": "navy-gold | white",
-    "fssai_label_1": "",
-    "fssai_license_1": "",
-    "fssai_label_2": "",
-    "fssai_license_2": "",
+    "fssai_label_1": "License 1",
+    "fssai_license_1": "23626028003706",
+    "fssai_label_2": "License 2",
+    "fssai_license_2": "21226008003432",
     "phone": "9550073264",
     "whatsapp": "919550073264",
     "email": "flavorsofbima@gmail.com",
@@ -779,49 +1314,49 @@
   },
   "whyus": [
     {
-      "order": 1.0,
+      "order": 1,
       "title": "No Preservatives",
       "desc": "Naturally preserved with salt, oil and spices — never chemicals.",
       "image": "no-preservatives.jpg"
     },
     {
-      "order": 2.0,
+      "order": 2,
       "title": "No Added Colors",
       "desc": "Color comes only from real ingredients like turmeric and chilli.",
       "image": "no-added-colors.jpg"
     },
     {
-      "order": 3.0,
+      "order": 3,
       "title": "Wood Pressed Oil",
       "desc": "We use only pure wood pressed (cold-pressed) oil.",
       "image": "wood-pressed-oil.jpg"
     },
     {
-      "order": 4.0,
+      "order": 4,
       "title": "Premium Ingredients",
       "desc": "Handpicked, premium-grade vegetables and spices in every batch.",
       "image": "premium-ingredients.jpg"
     },
     {
-      "order": 5.0,
+      "order": 5,
       "title": "Clean & Hygienic",
       "desc": "Prepared in a spotless, hygienic home kitchen environment.",
       "image": "clean-hygienic.jpg"
     },
     {
-      "order": 6.0,
+      "order": 6,
       "title": "Natural Process",
       "desc": "Traditional, natural methods — no machines, no mass production.",
       "image": "natural-process.jpg"
     },
     {
-      "order": 7.0,
+      "order": 7,
       "title": "No Refined Oils or Sugars",
       "desc": "Absolutely no refined oils or refined sugars used, ever.",
       "image": "no-refined-oils.jpg"
     },
     {
-      "order": 8.0,
+      "order": 8,
       "title": "Premium Packing",
       "desc": "Sealed, leak-proof premium packaging for safe delivery.",
       "image": "premium-packing.jpg"
@@ -829,7 +1364,7 @@
   ],
   "testimonials": [
     {
-      "order": 1.0,
+      "order": 1,
       "name": "Sreekanth Babu",
       "location": "Hyderabad",
       "rating": 5,
@@ -837,7 +1372,7 @@
       "image": "customer-1.jpg"
     },
     {
-      "order": 2.0,
+      "order": 2,
       "name": "Sasi",
       "location": "Bengaluru",
       "rating": 5,
@@ -845,7 +1380,7 @@
       "image": "customer-2.jpg"
     },
     {
-      "order": 3.0,
+      "order": 3,
       "name": "Vijayalakshmi",
       "location": "Chennai",
       "rating": 5,
@@ -855,37 +1390,37 @@
   ],
   "trustbar": [
     {
-      "order": 1.0,
+      "order": 1,
       "label": "Wood Pressed Oil",
       "emoji": "💧",
       "image": "wood-pressed-oil.png"
     },
     {
-      "order": 2.0,
+      "order": 2,
       "label": "Handpicked Vegetables",
       "emoji": "🥗",
       "image": "handpicked-vegetables.png"
     },
     {
-      "order": 3.0,
+      "order": 3,
       "label": "Homemade Spices",
       "emoji": "🌶️",
       "image": "homemade-spices.png"
     },
     {
-      "order": 4.0,
+      "order": 4,
       "label": "No Preservatives",
       "emoji": "🚫",
       "image": "no-preservatives.png"
     },
     {
-      "order": 5.0,
+      "order": 5,
       "label": "No Artificial Colors",
       "emoji": "🎨",
       "image": "no-artificial-colors.png"
     },
     {
-      "order": 6.0,
+      "order": 6,
       "label": "Small Batches",
       "emoji": "✨",
       "image": "small-batches.png"
@@ -893,22 +1428,22 @@
   ],
   "faq": [
     {
-      "order": 1.0,
+      "order": 1,
       "q": "How long do the pickles stay fresh?",
       "a": "Best taste within 3 months from the date of packing. Always use a clean, dry spoon and keep refrigerated after opening for longer life."
     },
     {
-      "order": 2.0,
+      "order": 2,
       "q": "Do you use any preservatives or colors?",
       "a": "Never. We preserve naturally with salt, wood pressed oil and spices. All colour comes from natural ingredients like turmeric and red chilli."
     },
     {
-      "order": 3.0,
+      "order": 3,
       "q": "Can I choose without garlic?",
       "a": "Yes — most pickles are available both with and without garlic. You can select your preference on each product page."
     },
     {
-      "order": 4.0,
+      "order": 4,
       "q": "How do I place an order?",
       "a": "Add items to your cart and checkout, or tap any WhatsApp button to order directly. We confirm every order personally."
     }

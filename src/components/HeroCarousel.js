@@ -28,7 +28,7 @@ const SLIDES = [
     img: "/images/banners/banner-3.jpg",
     eyebrow: "Pure & Natural",
     title: "No Shortcuts, Ever",
-    subtitle: "Wood pressed oil · Homemade spices",
+    subtitle: "Wood Pressed Oil · Homemade spices",
     text: "We never use preservatives or artificial colors. Just handpicked ingredients, ground-fresh spices, and small-batch care.",
     bg: "radial-gradient(ellipse 60% 80% at 50% 50%, #0a2050 0%, #071a3d 70%)",
   },

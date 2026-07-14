@@ -71,7 +71,7 @@ export default function HomePage() {
             {CATEGORIES.map((c, idx) => (
               <Reveal key={c.id} delay={idx * 0.06}>
                 <Link href={`/shop?category=${c.id}`} className={styles.catCard}>
-                  <div className={`${styles.catVisual} ${styles["cg" + ((idx % 4) + 1)]}`}>
+                  <div className={`${styles.catVisual} ${styles["cg" + ((idx % 5) + 1)]}`}>
                     <ImageWithFallback
                       src={c.image ? `/images/categories/${c.image}` : ""}
                       alt={c.name}

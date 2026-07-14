@@ -241,11 +241,15 @@ export default function ProductDetail({ product, category }) {
               💬 Order this on WhatsApp
             </button>
 
-            {/* Notes */}
-            <div className={styles.notes}>
-              <p>🌱 <strong>Fresh Batch:</strong> {QUALITY_NOTES.freshness}.</p>
-              {product.seasonal && <p>🍂 {QUALITY_NOTES.seasonal}.</p>}
-            </div>
+            {/* Notes — per-product, from the Excel (falls back to defaults) */}
+            {(product.shelfLife || QUALITY_NOTES.freshness) && (
+              <div className={styles.notes}>
+                <p>🌱 <strong>Fresh Batch:</strong> {product.shelfLife || QUALITY_NOTES.freshness}.</p>
+                {product.seasonal && (
+                  <p>🍂 {product.availabilityNote || QUALITY_NOTES.seasonal}.</p>
+                )}
+              </div>
+            )}
 
             {/* Ingredients */}
             <div className={styles.ingredients}>
