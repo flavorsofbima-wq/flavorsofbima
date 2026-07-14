@@ -6,6 +6,7 @@ import Reveal from "@/components/Reveal";
 import QualitySection from "@/components/QualitySection";
 import Testimonials from "@/components/Testimonials";
 import { bestsellers, CATEGORIES, productsByCategory, WHYUS, TESTIMONIALS, TRUSTBAR } from "@/lib/catalog";
+import { BRAND } from "@/lib/brand";
 import styles from "./home.module.css";
 
 export default function HomePage() {
@@ -20,7 +21,17 @@ export default function HomePage() {
         <div className={styles.marqueeTrack}>
           {[...Array(2)].map((_, dup) => (
             <span key={dup} className={styles.marqueeGroup}>
-              {["100% Homemade", "Wood Pressed Oil", "No Preservatives", "No Artificial Colors", "Traditional Recipes", "Handpicked Vegetables", "Small Batch"].map((t) => (
+              {[
+                "100% Homemade",
+                "Wood Pressed Oil",
+                "No Preservatives",
+                // only advertise the licence if one is actually set in the Excel
+                ...(BRAND.fssaiList.length ? ["FSSAI Licensed"] : []),
+                "No Artificial Colors",
+                "Traditional Recipes",
+                "Handpicked Vegetables",
+                "Small Batch",
+              ].map((t) => (
                 <span key={t} className={styles.marqueeItem}>✦ {t}</span>
               ))}
             </span>

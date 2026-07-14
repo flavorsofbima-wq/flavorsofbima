@@ -1,0 +1,149 @@
+.card {
+  background: var(--navyc);
+  border: 1px solid var(--gbor);
+  border-radius: var(--r);
+  padding: 32px;
+  box-shadow: var(--sc);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  background: var(--navy2);
+  border: 1px solid var(--gbor);
+  border-radius: var(--r2);
+  padding: 13px 15px;
+  color: var(--tm);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--td);
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px var(--gdim);
+}
+
+/* Star rating */
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.star {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--gbor2);
+  cursor: pointer;
+  padding: 0 2px;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.star:hover {
+  transform: scale(1.15);
+}
+
+.starOn {
+  color: var(--gold);
+  text-shadow: 0 0 14px rgba(212, 175, 55, 0.45);
+}
+
+.ratingText {
+  margin-left: 12px;
+  font-size: 0.85rem;
+  color: var(--ts);
+  min-width: 80px;
+}
+
+.error {
+  color: #ff8a8a;
+  font-size: 0.88rem;
+  margin: 4px 0 12px;
+}
+
+.privacy {
+  margin-top: 14px;
+  font-size: 0.78rem;
+  color: var(--td);
+  text-align: center;
+}
+
+/* Thank-you state */
+.thanks {
+  background: var(--navyc);
+  border: 1px solid var(--gbor2);
+  border-radius: var(--r);
+  padding: 56px 32px;
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto;
+  box-shadow: var(--sg);
+}
+
+.thanksIcon {
+  font-size: 2.6rem;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.thanksTitle {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--tm);
+  margin-bottom: 12px;
+}
+
+.thanksText {
+  color: var(--ts);
+  line-height: 1.75;
+  margin-bottom: 26px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .card { padding: 24px 20px; }
+  .row { grid-template-columns: 1fr; gap: 0; }
+  .star { font-size: 1.75rem; }
+  .ratingText { margin-left: 8px; font-size: 0.78rem; }
+}

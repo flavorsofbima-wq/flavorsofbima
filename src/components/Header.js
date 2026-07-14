@@ -127,6 +127,7 @@ export default function Header() {
 
             <Link href="/why-us" className={styles.navLink}>Why Us</Link>
             <Link href="/contact" className={styles.navLink}>Contact</Link>
+            <Link href="/feedback" className={styles.navLink}>Feedback</Link>
           </nav>
 
           <div className={styles.actions}>
@@ -167,6 +168,7 @@ export default function Header() {
           ))}
           <Link href="/why-us" className={styles.mobLink} onClick={() => setMobOpen(false)}>Why Us</Link>
           <Link href="/contact" className={styles.mobLink} onClick={() => setMobOpen(false)}>Contact</Link>
+          <Link href="/feedback" className={styles.mobLink} onClick={() => setMobOpen(false)}>Feedback</Link>
           <a href={waLink()} target="_blank" rel="noopener noreferrer" className={styles.mobOrder}>
             💬 Order on WhatsApp
           </a>

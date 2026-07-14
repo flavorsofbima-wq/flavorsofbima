@@ -41,6 +41,7 @@ export default function Footer() {
             <Link href="/policies/privacy">Privacy Policy</Link>
             <Link href="/policies/terms">Terms of Service</Link>
             <Link href="/contact">FAQ</Link>
+            <Link href="/feedback">Share Feedback</Link>
           </div>
 
           <div className={styles.col}>
