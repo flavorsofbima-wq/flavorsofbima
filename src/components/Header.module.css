@@ -413,8 +413,7 @@
 }
 
 /* When the desktop nav is hidden, the hamburger MUST appear — otherwise
-   there is no way to navigate at all (this was previously broken between
-   769px and 1024px). */
+   there is no way to navigate at all. */
 @media (max-width: 1024px) {
   .nav {
     display: none;
@@ -428,7 +427,49 @@
   .tag {
     display: none;
   }
+  /* Shrink the Order button to just its icon so the hamburger still fits */
   .order span {
+    display: none;
+  }
+}
+
+/* On phones the header must never overflow. The green WhatsApp "Order"
+   button is dropped entirely here — the floating WhatsApp button in the
+   corner already covers that action — so the hamburger is always reachable. */
+@media (max-width: 620px) {
+  .inner {
+    padding: 0 14px;
+    gap: 10px;
+  }
+  .order {
+    display: none;
+  }
+  .actions {
+    gap: 6px;
+    margin-left: auto;
+  }
+  .themeBtn,
+  .cartBtn {
+    width: 38px;
+    height: 38px;
+    font-size: 0.95rem;
+  }
+  .logoImg {
+    height: 44px;
+    width: 44px;
+  }
+  .brand {
+    font-size: 1.15rem;
+  }
+  .hamb {
+    display: flex;
+    padding: 8px 4px;
+  }
+}
+
+/* Very small phones: drop the brand text, keep logo + controls + burger */
+@media (max-width: 380px) {
+  .logoText {
     display: none;
   }
 }
