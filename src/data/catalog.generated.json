@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T11:16:14.063Z",
+  "generatedAt": "2026-07-15T06:04:50.194Z",
   "categories": [
     {
       "id": "veg-pickles",
@@ -1294,7 +1294,7 @@
     }
   ],
   "settings": {
-    "theme": "navy-gold",
+    "theme": "white",
     "theme_options": "navy-gold | white",
     "fssai_label_1": "FSSAI License 1",
     "fssai_license_1": "23626028003706",

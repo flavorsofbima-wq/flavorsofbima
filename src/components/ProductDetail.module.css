@@ -34,7 +34,8 @@
   position: relative;
   border-radius: var(--r);
   border: 1px solid var(--gbor);
-  height: 420px;
+  aspect-ratio: 1 / 1;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
