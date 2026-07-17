@@ -30,6 +30,7 @@ export const BRAND = {
     return list;
   })(),
   freeShippingAbove: Number(s("free_shipping_above", "0")) || 0,
+  deliveryNote: s("delivery_note", "Delivery charges apply based on your location and order weight. We confirm the exact charge on WhatsApp before dispatch."),
   announcement: s("announcement", "100% Homemade · No Preservatives · Wood Pressed Oil"),
   social: {
     instagram: s("instagram", "https://www.instagram.com/flavorsofbima/"),

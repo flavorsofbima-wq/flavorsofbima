@@ -135,6 +135,7 @@
 .cg3 { background: linear-gradient(145deg, #2a240f, #5a4e1e, #8a7430); }
 .cg4 { background: linear-gradient(145deg, #0f1e2a, #1e3e5a, #2e5e8a); }
 .cg5 { background: linear-gradient(145deg, #2a1a0f, #5a3a1e, #9a6a2e); }
+.cg6 { background: linear-gradient(145deg, #240f2a, #4a1e5a, #7a2e8a); }
 .catShade {
   position: absolute;
   inset: 0;

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, createContext, useContext } from "react";
 
-const ThemeCtx = createContext({ theme: "navy-gold", setTheme: () => {}, toggle: () => {} });
+const ThemeCtx = createContext({ theme: "white", setTheme: () => {}, toggle: () => {} });
 
 export function useTheme() {
   return useContext(ThemeCtx);
@@ -13,7 +13,7 @@ export function useTheme() {
  *  1. Visitor's saved choice (localStorage) — item 15 "let me select"
  *  2. Admin default from the Excel (passed as defaultTheme)
  */
-export default function ThemeProvider({ defaultTheme = "navy-gold", children }) {
+export default function ThemeProvider({ defaultTheme = "white", children }) {
   const [theme, setThemeState] = useState(defaultTheme);
   const [ready, setReady] = useState(false);
 

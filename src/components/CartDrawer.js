@@ -102,7 +102,7 @@ export default function CartDrawer() {
                 <span>Subtotal</span>
                 <span className={styles.subtotal}>{formatPrice(subtotal)}</span>
               </div>
-              <p className={styles.note}>Delivery & taxes calculated at checkout.</p>
+              <p className={styles.note}>🚚 {BRAND.deliveryNote}</p>
               <Link href="/checkout" className="btn btn-gold btn-block" onClick={close}>
                 Proceed to Checkout
               </Link>

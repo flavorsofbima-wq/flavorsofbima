@@ -248,6 +248,7 @@ export default function ProductDetail({ product, category }) {
                 {product.seasonal && (
                   <p>🍂 {product.availabilityNote || QUALITY_NOTES.seasonal}.</p>
                 )}
+                {BRAND.deliveryNote && <p>🚚 {BRAND.deliveryNote}</p>}
               </div>
             )}
 

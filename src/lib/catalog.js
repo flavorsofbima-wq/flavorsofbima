@@ -60,6 +60,6 @@ export function setting(key, fallback = "") {
   return v == null || v === "" ? fallback : v;
 }
 export function defaultTheme() {
-  const t = setting("theme", "navy-gold").toLowerCase();
-  return t === "white" ? "white" : "navy-gold";
+  const t = setting("theme", "white").toLowerCase();
+  return t === "navy-gold" ? "navy-gold" : "white";
 }

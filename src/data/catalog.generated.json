@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T06:04:50.194Z",
+  "generatedAt": "2026-07-17T12:51:29.619Z",
   "categories": [
     {
       "id": "veg-pickles",
@@ -35,11 +35,19 @@
     },
     {
       "id": "snacks",
-      "name": "Sweets & Snacks",
-      "icon": "🍪",
+      "name": "Snacks",
+      "icon": "🥨",
       "type": "veg",
       "base": "250g",
       "image": "snacks.jpg"
+    },
+    {
+      "id": "sweets",
+      "name": "Sweets",
+      "icon": "🍬",
+      "type": "veg",
+      "base": "250g",
+      "image": "sweets.jpg"
     }
   ],
   "products": [
@@ -1073,7 +1081,7 @@
     {
       "slug": "dry-fruit-laddu",
       "name": "Dry Fruit Laddu",
-      "category": "snacks",
+      "category": "sweets",
       "prices": {
         "500g": 799,
         "1kg": 1599
@@ -1105,7 +1113,7 @@
     {
       "slug": "sunnundalu-bellam",
       "name": "Bellam Sunnundalu",
-      "category": "snacks",
+      "category": "sweets",
       "prices": {
         "500g": 350,
         "1kg": 700
@@ -1136,7 +1144,7 @@
     {
       "slug": "sunnundalu-sugar",
       "name": "Sugar Sunnundalu",
-      "category": "snacks",
+      "category": "sweets",
       "prices": {
         "500g": 350,
         "1kg": 700
@@ -1200,7 +1208,7 @@
     {
       "slug": "boondi-laddu-sugar",
       "name": "Sugar Boondi Laddu",
-      "category": "snacks",
+      "category": "sweets",
       "prices": {
         "500g": 325,
         "1kg": 650
@@ -1233,7 +1241,7 @@
     {
       "slug": "boondi-laddu-bellam",
       "name": "Bellam Boondi Laddu",
-      "category": "snacks",
+      "category": "sweets",
       "prices": {
         "500g": 325,
         "1kg": 650
@@ -1265,7 +1273,7 @@
     {
       "slug": "ariselu-bellam",
       "name": "Bellam Ariselu",
-      "category": "snacks",
+      "category": "sweets",
       "prices": {
         "500g": 350,
         "1kg": 700
@@ -1310,7 +1318,8 @@
     "announcement": "100% Homemade · No Preservatives · Wood Pressed Oil",
     "default_garlic": "with",
     "default_oil": "wood",
-    "default_package": "glass"
+    "default_package": "glass",
+    "delivery_note": "Delivery charges will be applicable as per the actuals. We confirm the exact charge on WhatsApp before dispatch."
   },
   "whyus": [
     {
