@@ -78,6 +78,19 @@ export default function RootLayout({ children }) {
       className={`${cormorant.variable} ${outfit.variable} ${vibes.variable}`}
     >
       <head>
+        {/* Google Analytics 4 — measurement ID G-CWTSZF0DHV */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CWTSZF0DHV"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-CWTSZF0DHV');`,
+          }}
+        />
         {/* No-flash: apply saved theme before paint */}
         <script
           dangerouslySetInnerHTML={{
